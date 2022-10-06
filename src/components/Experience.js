@@ -1,4 +1,6 @@
 import images from "../images/experiencia laboral.jpeg";
+import "../styles/Education.scss";
+import "../styles/Experience.scss";
 import Footer from "./Footer";
 import Menu from "./Menu";
 import Portfolio from "./Portfolio";
@@ -11,16 +13,16 @@ const Experience = () => {
           <Menu />
           <Portfolio />
         </header>
-        <div>
-        <div>
-        <h1>Experience</h1>
-       <ul>
+        <div className="education-container">
+        <div className="container-1">
+        <h1 className="title">Experience</h1>
+       <ul className="list-experience">
         <p>Bachelor of Speech Therapy in:</p>
         <li>Peñarol Clinic and Centro Oeste Clinic. Montevideo, Uruguay. Year 2019- 2021.</li>
         <li>Ciprés Clinic and "Franklin Delano Roosevelt" school. Montevideo, Uruguay. Year 2017-2019.</li>
         <li>Provincial Polyclinic "Chiqui Gómez". Villa Clara, Cuba. Year 2015-2017.</li>
        </ul>
-       <ul>
+       <ul className="list-experience">
         <p>Competencies:</p>
         <li>Prevention, evaluation, diagnosis and treatment in children and adults with communication disorders.</li>
         <li>Rehabilitation of children and adults with cochlear implants. auditory-verbal therapy.</li>

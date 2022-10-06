@@ -1,9 +1,9 @@
-.about-me-container {
+.education-container {
   display: flex;
 
   .container-1 {
     margin-left: 28px;
-    margin-top: 28px;
+    margin-top: 40px;
 
     .title {
       color: #4a4a4a;
@@ -11,14 +11,13 @@
       text-decoration: underline;
     }
 
-    .description {
-      margin-top: 16px;
+    .list {
+      margin-top: 40px;
       width: 750px;
       height: 275px;
       font-size: 16px;
-      line-height: 1.5;
-      font-weight: 500;
-      word-spacing: 5px;
+      line-height: 2.5;
+      font-weight: 100;
       text-align: justify;
     }
   }

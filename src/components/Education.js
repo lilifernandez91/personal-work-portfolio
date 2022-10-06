@@ -1,4 +1,5 @@
 import images from "../images/estudios.jpeg";
+import "../styles/Education.scss";
 import Footer from "./Footer";
 import Menu from "./Menu";
 import Portfolio from "./Portfolio";
@@ -11,10 +12,10 @@ const Education = () => {
           <Menu />
           <Portfolio />
         </header>
-        <div>
-          <div>
-            <h1>Education</h1>
-            <ul>
+        <div className="education-container">
+          <div className="container-1">
+            <h1 className="title">Education</h1>
+            <ul className="list">
               <li>
                 Adalab: Digital programming school for women. Front End
                 development intensive course. Year: 2022.
@@ -31,7 +32,7 @@ const Education = () => {
             </ul>
           </div>
           <div>
-            <img  src={images} alt="" />
+            <img className="img" src={images} alt="" />
           </div>
         </div>
         <Footer />
