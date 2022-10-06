@@ -1,0 +1,31 @@
+.about-me-container {
+  display: flex;
+
+  .container-1 {
+    margin-left: 28px;
+    margin-top: 28px;
+
+    .title {
+      color: #4a4a4a;
+    }
+
+    .description {
+      margin-top: 16px;
+      border: 1px solid #9ec9f3;
+      width: 750px;
+      height: 275px;
+      font-size: 16px;
+      font-size: 16px;
+      line-height: 1.5;
+      font-weight: 100;
+      font-weight: 500;
+    }
+  }
+
+  .img {
+    width: 250px;
+    height: 250px;
+    margin-top: 14vh;
+    margin-left: 200px;
+  }
+}

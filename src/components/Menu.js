@@ -1,33 +1,18 @@
 import "../styles/Menu.scss"
+import {Link} from "react-router-dom"
 
 const Menu = () => {
   return (
     <div>
       <nav class="nav">
-        <a class="nav-link active" aria-current="page" href="#">
-          Portfolio
-        </a>
-        <a class="nav-link" href="#">
-          About me
-        </a>
-        <a class="nav-link" href="#">
-          Education
-        </a>
-        <a class="nav-link" href="#">
-          Experience
-        </a>
-        <a class="nav-link" href="#">
-          Skills
-        </a>
-        <a class="nav-link" href="#">
-          Projects
-        </a>
-        <a class="nav-link" href="#">
-          Collaborations
-        </a>
-        <a class="nav-link" href="#">
-          Contact
-        </a>
+        <Link className="nav-link active" to="/">Portfolio</Link>
+        <Link className="nav-link" to="/about-me">About me</Link>
+        <Link className="nav-link" to="/education">Education</Link>
+        <Link className="nav-link" to="/experience">Experience</Link>
+        <Link className="nav-link" to="/skills">Skills</Link>
+        <Link className="nav-link" to="/projects">Projects</Link>
+        <Link className="nav-link" to="/collaboprations">Collaborations</Link>
+        <Link className="nav-link" to="/contact">Contact</Link>
       </nav>
     </div>
   );

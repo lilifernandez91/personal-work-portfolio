@@ -1,7 +1,10 @@
+import "../styles/Portfolio.scss"
+
 const Portfolio = () => {
     return (
-        <di>
-        </di>
+        <div>
+            <h1 className="portfolio">Portfolio</h1>
+        </div>
     )
 }
 
