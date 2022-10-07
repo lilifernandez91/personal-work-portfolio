@@ -1,32 +1,26 @@
-.about-me-container {
-  display: flex;
+.about-me-container{
+  min-height: calc(100vh - 273px);
+}
 
-  .container-1 {
-    margin-left: 28px;
-    margin-top: 28px;
+.title {
+  color: #4a4a4a;
+  font-size: 28px;
+  text-decoration: underline;
+  margin-top: 25px;
+}
 
-    .title {
-      color: #4a4a4a;
-      font-size: 28px;
-      text-decoration: underline;
-    }
+.description {
+  margin-top: 45px;
+  width: 750px;
+  height: 275px;
+  word-spacing: 5px;
+  text-align: justify;
+}
 
-    .description {
-      margin-top: 16px;
-      width: 750px;
-      height: 275px;
-      font-size: 16px;
-      line-height: 1.5;
-      font-weight: 500;
-      word-spacing: 5px;
-      text-align: justify;
-    }
-  }
-
-  .img {
-    width: 250px;
-    height: 250px;
-    margin-top: 12vh;
-    margin-left: 200px;
-  }
+.img {
+  width: 400px;
+  height: 400px;
+  margin-top: 46px;
+  border-radius: 8px;
+  box-shadow: 0 8px 8px 0 #773da1;
 }

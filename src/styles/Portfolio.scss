@@ -1,10 +1,11 @@
 .portfolio {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
     margin-top: 20px;
     text-transform: uppercase;
-    background-color: #9FC9F3;
+    background-color: #773da1;
     height: 11vh;
-    padding-top: 16px;
-    color: #4a4a4a;
     font-size: 26px;
 }
