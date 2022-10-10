@@ -17,7 +17,8 @@ const Education = () => {
         </header>
         <div>
           <div className="education-container container">
-            <div className="col-12 col-lg-8">
+           <div className="row">
+           <div className="col-12 col-lg-8">
               <h1 className="title">Education</h1>
               <ul className="list-container">
                 <div>
@@ -47,6 +48,7 @@ const Education = () => {
             <div className="col-12 col-lg-4">
               <img className="img" src={images} alt="" />
             </div>
+           </div>
           </div>
         </div>
         <Footer />

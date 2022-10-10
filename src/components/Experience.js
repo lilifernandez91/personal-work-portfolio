@@ -13,6 +13,7 @@ const Experience = () => {
           <Portfolio />
         </header>
         <div className="experience-container container">
+          <div className="row">
           <div className="col-12 col-lg-8">
             <h1 className="title">Experience</h1>
               <ul className="list">
@@ -49,6 +50,7 @@ const Experience = () => {
           </div>
           <div className="col-12 col-lg-4">
             <img className="img" src={images} alt="" />
+          </div>
           </div>
         </div>
         <Footer />
