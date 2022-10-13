@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "./static/css/main.58358094.css",
-    "main.js": "./static/js/main.f7720901.js",
+    "main.js": "./static/js/main.8da70358.js",
     "static/media/IMG-6006.jpg": "./static/media/IMG-6006.4cc87fc6ee00cdd79902.jpg",
     "static/media/Logotipo-UDELAR.png": "./static/media/Logotipo-UDELAR.9a1e55ad9f93807b228c.png",
     "static/media/agile-scrum.png": "./static/media/agile-scrum.f8e7470473198e4c983c.png",
     "static/media/logo-adalab.svg": "./static/media/logo-adalab.0187ac2f3e9c24b3b65248560c7283b9.svg",
     "index.html": "./index.html",
     "main.58358094.css.map": "./static/css/main.58358094.css.map",
-    "main.f7720901.js.map": "./static/js/main.f7720901.js.map"
+    "main.8da70358.js.map": "./static/js/main.8da70358.js.map"
   },
   "entrypoints": [
     "static/css/main.58358094.css",
-    "static/js/main.f7720901.js"
+    "static/js/main.8da70358.js"
   ]
 }
