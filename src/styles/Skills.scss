@@ -1,28 +1,43 @@
 .container-1 {
-  margin-left: 28px;
-  margin-top: 40px;
   min-height: calc(100vh - 273px);
 
   .title {
     color: #4a4a4a;
     font-size: 28px;
     text-decoration: underline;
-    margin-left: 60px;
+    margin-left: 150px;
+    padding-bottom: 19px;
+  }
+
+  h2 {
+    color: #4a4a4a;
+    font-size: 28px;
   }
 
   .layout-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 60px;
+    justify-content: center;
+    margin-bottom: 24px;
 
-    .layout-img {
-      width: 100px;
-      height: 100px;
-      border-radius: 10px;
-      margin-top: 10px;
-      box-shadow: 0 8px 8px 0 #773da1;
-      cursor: pointer;
+    .space {
+      margin-right: 70px;
+      margin-left: 50px;
+      margin-right: 50px;
+
+      .layout {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .layout-img {
+          width: 70px;
+          height: 70px;
+          cursor: pointer;
+          margin-bottom: 16px;
+          border-radius: 50%;
+          border: 1px solid rgb(147, 145, 145);
+        }
+      }
+    }
   }
-}
 }

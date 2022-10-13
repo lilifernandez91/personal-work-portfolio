@@ -1,0 +1,17 @@
+.container-contact {
+  min-height: calc(100vh - 273px);
+
+  .container-icon {
+    display: flex;
+    justify-content: space-evenly;
+
+    .icon {
+      color: black;
+      margin-top: 50px;
+    }
+  }
+
+  .image-contact {
+    width: 350px;
+  }
+}

@@ -1,5 +1,14 @@
 .about-me-container{
   min-height: calc(100vh - 273px);
+  
+  .description {
+    margin-top: 45px;
+    width: 750px;
+    height: 275px;
+    word-spacing: 5px;
+    text-align: justify;
+  }
+
 }
 
 .title {
@@ -9,13 +18,7 @@
   margin-top: 25px;
 }
 
-.description {
-  margin-top: 45px;
-  width: 750px;
-  height: 275px;
-  word-spacing: 5px;
-  text-align: justify;
-}
+
 
 .img {
   width: 400px;

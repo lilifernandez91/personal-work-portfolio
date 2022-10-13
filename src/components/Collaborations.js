@@ -2,24 +2,45 @@ import "../styles/Projects.scss";
 import Footer from "./Footer";
 import Menu from "./Menu";
 import Portfolio from "./Portfolio";
-import equipo from "../images/presentacion-equipo.png"
-import tarjeta from "../images/tarjeta-personal.png"
+import { collaborations } from "../services/collaborations";
 
 const Collaborations = () => {
     return (
       <div>
-        <>
-          <header>
-            <Menu />
-            <Portfolio />
-          </header>
-          <div className="collaborations-container">
-          <img className="image-projects" src={equipo} alt="Foto de proyecto" />
-          <img className="image-projects" src={tarjeta} alt="Foto de proyecto" />
+      <>
+        <header>
+          <Menu />
+          <Portfolio />
+        </header>
+        <div className="projects-container container">
+          <div className="projects-1">
+            {collaborations.map((p) => (
+              <div className="project-box">
+                <img
+                  className="image-projects"
+                  src={p.image}
+                  alt="Foto de proyecto"
+                />
+                <div className="description">
+                  <p>
+                    <span>Description:</span> 
+                    <span>{p.description}</span>
+                  </p>
+                  <p>
+                    <span>Technologies:</span> 
+                    <span>{p.technologies}</span>
+                  </p>
+                  <a rel="noreferrer" href={p.link} target="_blank">
+                    Visit website
+                  </a>
+                </div>
+              </div>
+            ))}     
           </div>
-          <Footer />
-        </>
-      </div>
+        </div>
+        <Footer />
+      </>
+    </div>
     );
   };
   

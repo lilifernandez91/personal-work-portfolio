@@ -11,7 +11,7 @@ const Menu = () => {
         <Link className="nav-link" to="/experience">Experience</Link>
         <Link className="nav-link" to="/skills">Skills</Link>
         <Link className="nav-link" to="/projects">Projects</Link>
-        <Link className="nav-link" to="/collaboprations">Collaborations</Link>
+        <Link className="nav-link" to="/collaborations">Collaborations</Link>
         <Link className="nav-link" to="/contact">Contact</Link>
       </nav>
     </div>
