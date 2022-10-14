@@ -1,4 +1,5 @@
 import "../styles/Main.scss";
+import "../styles/Reset.scss";
 
 const Main = () => {
   return (
@@ -21,7 +22,7 @@ const Main = () => {
               alt=""
             />
           </div>
-        <div className="box-2">
+        <div className="box-1">
             <img
               className="img"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqvJjNsXzF69RDHZXWr7_G6ucXvU-WgGaZawfXRAX4&s"

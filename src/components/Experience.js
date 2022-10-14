@@ -1,5 +1,6 @@
 import images from "../images/experiencia laboral.jpeg";
 import "../styles/Experience.scss";
+import "../styles/Reset.scss";
 import Footer from "./Footer";
 import Menu from "./Menu";
 import Portfolio from "./Portfolio";

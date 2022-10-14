@@ -1,3 +1,4 @@
+import "../styles/Reset.scss";
 import "../styles/Skills.scss";
 import "../styles/Education.scss";
 import Footer from "./Footer";

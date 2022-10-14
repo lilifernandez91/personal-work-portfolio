@@ -7,11 +7,15 @@
 
     .icon {
       color: black;
-      margin-top: 50px;
+      margin-top: 65px;
+      font-size: 35px;
     }
   }
 
   .image-contact {
-    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30vh;
   }
 }

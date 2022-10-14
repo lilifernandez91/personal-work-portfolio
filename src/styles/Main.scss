@@ -8,13 +8,22 @@
   .box-1 {
     display: flex;
     justify-content: space-around;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
-  .box-2 {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-  }
+  // .box-2 {
+  //   display: flex;
+  //   justify-content: space-around;
+
+  //   @media (max-width: 768px) {
+  //     flex-direction: column;
+  //     align-items: center;
+  //   }
+  // }
 
   .img {
     width: 200px;

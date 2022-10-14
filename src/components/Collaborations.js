@@ -1,4 +1,5 @@
 import "../styles/Projects.scss";
+import "../styles/Reset.scss";
 import Footer from "./Footer";
 import Menu from "./Menu";
 import Portfolio from "./Portfolio";

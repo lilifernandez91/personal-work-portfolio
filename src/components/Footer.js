@@ -1,4 +1,5 @@
 import "../styles/Footer.scss";
+import "../styles/Reset.scss";
 
 const Footer = () => {
   return (

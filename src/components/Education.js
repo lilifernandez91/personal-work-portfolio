@@ -1,8 +1,9 @@
+import "../styles/Education.scss";
+import "../styles/Reset.scss";
 import images from "../images/estudios.jpeg";
 import imageOne from "../images/logo-adalab.svg";
 import imageTwo from "../images/Logotipo-UDELAR.png";
 import imageThree from "../images/images.jpeg";
-import "../styles/Education.scss";
 import Footer from "./Footer";
 import Menu from "./Menu";
 import Portfolio from "./Portfolio";

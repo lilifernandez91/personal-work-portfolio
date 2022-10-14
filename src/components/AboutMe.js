@@ -1,5 +1,6 @@
 import images from "../images/IMG-6006.jpg";
 import "../styles/AboutMe.scss";
+import "../styles/Reset.scss";
 import Footer from "./Footer";
 import Menu from "./Menu";
 import Portfolio from "./Portfolio";

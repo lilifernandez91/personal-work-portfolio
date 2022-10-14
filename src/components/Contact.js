@@ -1,4 +1,5 @@
 import "../styles/Contact.scss";
+import "../styles/Reset.scss";
 import Footer from "./Footer";
 import Menu from "./Menu";
 import Portfolio from "./Portfolio";
@@ -46,8 +47,10 @@ const Contact = () => {
               <i className="fa-brands fa-twitter icon"></i>
             </a>
           </div>
+          <div className="image-contact" >
+          <img src={contact} alt=""/>
+          </div>
         </div>
-        <img className="image-contact" src={contact} alt=""/>
         <Footer />
       </>
     </div>

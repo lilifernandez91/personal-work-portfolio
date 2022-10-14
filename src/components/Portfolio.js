@@ -1,4 +1,5 @@
 import "../styles/Portfolio.scss"
+import "../styles/Reset.scss";
 
 const Portfolio = () => {
     return (
