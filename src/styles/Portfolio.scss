@@ -8,4 +8,8 @@
     background-color: #773da1;
     height: 11vh;
     font-size: 26px;
+
+    @media (max-width: 768px) {
+        font-size: 20px;
+    }
 }

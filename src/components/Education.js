@@ -47,7 +47,7 @@ const Education = () => {
               </ul>
             </div>
             <div className="col-12 col-lg-4">
-              <img className="img" src={images} alt="" />
+              <img className="image-experience" src={images} alt="" />
             </div>
            </div>
           </div>
