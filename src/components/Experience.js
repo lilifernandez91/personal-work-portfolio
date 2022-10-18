@@ -50,7 +50,7 @@ const Experience = () => {
               </ul>
           </div>
           <div className="col-12 col-lg-4">
-            <img className="img" src={images} alt="" />
+            <img className="imgage-experience" src={images} alt="" />
           </div>
           </div>
         </div>

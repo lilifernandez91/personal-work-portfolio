@@ -1,6 +1,6 @@
-.about-me-container{
+.about-me-container {
   min-height: calc(100vh - 273px);
-  
+
   .description {
     margin-top: 45px;
     //width: 750px;
@@ -8,12 +8,13 @@
     word-spacing: 5px;
     text-align: justify;
 
-    @media (max-width: 768px) {
-       margin-top: 16px;
-       word-spacing: 0px;
+    @media (max-width: 380px) {
+      margin-top: 16px;
+      word-spacing: 0px;
+      padding-left: 25px;
+      padding-right: 20px;
     }
   }
-
 }
 
 .title {
@@ -22,9 +23,10 @@
   text-decoration: underline;
   margin-top: 25px;
 
-  @media (max-width: 768px){
+  @media (max-width: 380px) {
     font-size: 21px;
     margin-top: 19px;
+    padding-left: 24px;
   }
 }
 
@@ -36,10 +38,10 @@
   border-radius: 8px;
   box-shadow: 0 8px 8px 0 #773da1;
 
-  @media (max-width: 768px){
-    margin-top: 302px;
+  @media (max-width: 380px) {
+    margin-top: 340px;
     width: 283px;
     height: 291px;
-    margin-left: 26px;
+    margin-left: 33px;
   }
 }
