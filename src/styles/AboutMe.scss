@@ -1,47 +1,35 @@
 .about-me-container {
   min-height: calc(100vh - 273px);
 
-  .description {
-    margin-top: 45px;
-    //width: 750px;
-    height: 275px;
-    word-spacing: 5px;
-    text-align: justify;
-
-    @media (max-width: 380px) {
-      margin-top: 16px;
-      word-spacing: 0px;
-      padding-left: 25px;
-      padding-right: 20px;
-    }
-  }
-}
-
-.title {
-  color: #4a4a4a;
-  font-size: 28px;
-  text-decoration: underline;
-  margin-top: 25px;
-
-  @media (max-width: 380px) {
+  .title {
+    color: #4a4a4a;
     font-size: 21px;
-    margin-top: 19px;
+    text-decoration: underline;
+    margin-top: 25px;
     padding-left: 24px;
   }
-}
 
-.image-about-me {
-  width: 400px;
-  height: 400px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  box-shadow: 0 8px 8px 0 #773da1;
-
-  @media (max-width: 380px) {
-    margin-top: 340px;
-    width: 283px;
-    height: 291px;
-    margin-left: 33px;
+  .description {
+    margin-top: 16px;
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 20px;
   }
+
+  .image-about-me {
+    width: 214px;
+    height: 230px;
+    margin-left: 24px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 8px 8px 0 #773da1;
+
+    @media (min-width:280px) and (max-width:540px){
+      margin-left: 30%;
+    }
+  }  
 }
+
+
+
