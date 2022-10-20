@@ -8,35 +8,52 @@
     margin-top: 20px;
     margin-bottom: 16px;
     margin-left: 32px;
-}
+  }
 
-.list-container {
-  margin-right: 24px;
+  .list-container {
+    margin-right: 24px;
 
-  .list {
-    border: 1px solid rgba($color: #000000, $alpha: 0.1);
-    border-radius: 5px;
-    margin-bottom: 20px;
-    padding: 15px;
-    display: flex;
-    text-align: end;
+    .list {
+      border: 1px solid rgba($color: #000000, $alpha: 0.1);
+      border-radius: 5px;
+      margin-bottom: 20px;
+      padding: 15px;
+      display: flex;
+      text-align: end;
 
-    .image {
-      width: 50px;
-      height: 50px;
+      @media (max-width: 990px) and (min-width: 768px) {
+        height: 125px;
+        font-size: 20px;
+        padding-top: 30px;
+      }
+
+      .image {
+        width: 50px;
+        height: 50px;
+      }
     }
   }
-}
 
-.image-education-container{
-  @media (max-width: 768px) and (min-width: 320px) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .image-education-container {
+    @media (max-width: 768px) and (min-width: 320px) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @media (max-width: 990px) and (min-width: 768px) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
     .image-education {
       margin-bottom: 20px;
+
+      @media (max-width: 990px) and (min-width: 768px) {
+        margin-top: 23px;
+        width: 285px;
+      }
     }
   }
-  } 
 }
