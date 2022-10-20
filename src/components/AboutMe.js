@@ -37,7 +37,7 @@ const AboutMe = () => {
                 new challenges and be constantly learning.
               </p>
             </div>
-            <div className="col-12 col-lg-4">
+            <div className="col-12 col-lg-4 image-about-me-container">
               <img className="image-about-me" src={images} alt=""/>
             </div>
           </div>

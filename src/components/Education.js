@@ -46,7 +46,7 @@ const Education = () => {
                 </div>
               </ul>
             </div>
-            <div className="col-12 col-lg-4">
+            <div className="col-12 col-lg-4 image-education-container">
               <img className="image-education" src={images} alt="" />
             </div>
            </div>
