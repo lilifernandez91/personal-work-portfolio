@@ -23,7 +23,7 @@ const Menu = () => {
       {width >= isMobile ? (
         <nav class="nav">
           <Link className="nav-link active" to="/">
-            Portfolio
+            Inicio
           </Link>
           <Link className="nav-link" to="/about-me">
             About me

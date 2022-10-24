@@ -21,37 +21,37 @@ const Skills = () => {
             <div className="col-12 col-lg-6">
               <div>
                 <p>
-                  Maquetación: HTML5, CSS3, Flexbox, CSS Grid, diseño
-                  responsive, SASS, Bootstrap.
+                  Layout: HTML5, CSS3, Flexbox, CSS Grid, design responsive,
+                  SASS, Bootstrap.
                 </p>
               </div>
               <div>
-                <p>JavaScript (ES6) y servicios web (APIs) de terceros.</p>
+                <p>JavaScript (ES6) and third-party web services (APIs).</p>
               </div>
               <div>
-                <p>Control de versiones con Git.</p>
+                <p>Version control with Git.</p>
               </div>
               <div>
-                <p>Creación de SPAs sencillas con React.</p>
+                <p>Creating simple SPAs with React.</p>
               </div>
             </div>
             <div className="col-12 col-lg-6">
               <div>
                 <p>
-                  Conocimientos básicos de APIs y programación back:
-                  Aplicaciones con Node JS, Express y SQL.
+                  Basic knowledge of APIs and back programming: Applications
+                  with Node JS, Express and SQL.
                 </p>
               </div>
               <div>
                 <p>
-                  Manejo de Slack, GitHub, VS Code, Gulp, Terminal, Linter,
+                  Management of Slack, GitHub, VS Code, Gulp, Terminal, Linter,
                   Zeplin.
                 </p>
               </div>
               <div>
                 <p>
-                  Experiencia en el desarrollo de proyectos usando filosofía
-                  Agile y marco de trabajo Scrum.
+                  Experience in project development using philosophy Agile and
+                  Scrum framework.
                 </p>
               </div>
             </div>

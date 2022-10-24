@@ -9,7 +9,7 @@ const HamburguerMenu = () => {
           <div class="bg-dark p-4">
             <nav class="nav">
               <Link className="nav-link active" to="/">
-                Portfolio
+                Inicio
               </Link>
               <Link className="nav-link" to="/about-me">
                 About me
