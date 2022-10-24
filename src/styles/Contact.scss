@@ -1,5 +1,10 @@
 .container-contact {
-  min-height: calc(100vh - 273px);
+  min-height: calc(100vh - 200px);
+
+  @media (min-width: 992px){
+    min-height: calc(100vh - 185px);
+  }
+
 
   .container-icon {
     display: flex;

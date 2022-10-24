@@ -1,25 +1,22 @@
 .projects-container {
   min-height: calc(100vh - 273px);
 
-    .project-box {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+  .project-box {
+    display: flex;
+    flex-direction: column;
 
-      .image-projects {
-        width: 123px;
-        height: 129px;
-        border-radius: 25px;
-        margin-top: 16px;
-        box-shadow: 0 8px 8px 0 #773da1;
-      }
-  
-      .description {
-        margin: 14px 16px 0px 25px;
-        padding: 5px;
-        text-align: justify;
-      }
-    }  
+    .image-projects {
+      width: 123px;
+      height: 129px;
+      border-radius: 25px;
+      margin-top: 16px;
+      box-shadow: 0 8px 8px 0 rgb(54, 126, 24);
+    }
+
+    .description {
+      margin-top: 20px;
+      margin-bottom: 16px;
+      text-align: justify;
+    }
   }
-
+}

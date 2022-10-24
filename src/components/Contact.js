@@ -14,7 +14,8 @@ const Contact = () => {
           <Portfolio />
         </header>
         <div className="container-contact container">
-          <div className="container-icon">
+          <div className="row">
+          <div className="container-icon col-12">
             <a href="tel://+34660942023">
               <i className="fa-solid fa-phone icon"></i>
             </a>
@@ -47,8 +48,9 @@ const Contact = () => {
               <i className="fa-brands fa-twitter icon"></i>
             </a>
           </div>
-          <div className="image-contact" >
+          <div className="image-contact col-12">
           <img src={contact} alt=""/>
+          </div>
           </div>
         </div>
         <Footer />

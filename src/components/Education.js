@@ -25,23 +25,23 @@ const Education = () => {
                 <div>
                   <li className="list">
                     <img className="image" src={imageOne} alt="" />
-                    Adalab, digital programming school for women. Front End
-                    development intensive course. Year: 2022.
+                    <p>Adalab, digital programming school for women. Front End
+                    development intensive course. Year: 2022.</p>
                   </li>
                 </div>
                 <div>
                   <li className="list">
                     <img className="image" src={imageTwo} alt="" />
-                    Faculty of Medicine of the University of the Republic,
+                    <p>Faculty of Medicine of the University of the Republic,
                     Montevideo, Uruguay. Approval of the Bachelor's degree in
-                    Speech Therapy. Year: 2018.
+                    Speech Therapy. Year: 2018.</p>
                   </li>
                 </div>
                 <div>
                   <li className="list">
                     <img className="image" src={imageThree} alt="" />
-                    Villa Clara University of Medical Sciences, Cuba. Degree in
-                    speech therapy. Year: 2010-2015.
+                    <p>Villa Clara University of Medical Sciences, Cuba. Degree in
+                    speech therapy. Year: 2010-2015.</p>
                   </li>
                 </div>
               </ul>

@@ -2,17 +2,20 @@
   min-height: calc(100vh - 273px);
 
   .box-1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-top: 20px;
+
+    .container-image{
+      display: flex;
+      justify-content: center;
+    }
+
+    .image-main {
+      width: 250px;
+      height: 200px;
+      border-radius: 8px;
+      box-shadow: 0 8px 8px 0 rgb(54, 126, 24);
+      margin-bottom: 20px;
+    }
+    }
   }
 
-  .image-main {
-    width: 200px;
-    height: 200px;
-    border-radius: 8px;
-    box-shadow: 0 8px 8px 0 #773da1;
-    margin-bottom: 20px;
-  }
-}

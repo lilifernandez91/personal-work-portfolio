@@ -1,48 +1,44 @@
 import "../styles/Main.scss";
 import "../styles/Reset.scss";
+import aboutme from "../images/about-me.png";
+import education from "../images/education.png";
+import experience from "../images/experience.png";
+import skills from "../images/skills.png";
+import projects from "../images/projects.png";
+import collaboration from "../images/collaborations.png";
+import contact from "../images/contact.png";
+import { Link } from "react-router-dom";
 
 const Main = () => {
   return (
-    <div className="container">
-      <div className="box-container">
-      <div className="box-1">
-            <img
-              className="image-main"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqvJjNsXzF69RDHZXWr7_G6ucXvU-WgGaZawfXRAX4&s"
-              alt=""
-            />
-            <img
-              className="image-main"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqvJjNsXzF69RDHZXWr7_G6ucXvU-WgGaZawfXRAX4&s"
-              alt=""
-            />
-            <img
-              className="image-main"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqvJjNsXzF69RDHZXWr7_G6ucXvU-WgGaZawfXRAX4&s"
-              alt=""
-            />
-          </div>
-        <div className="box-1">
-            <img
-              className="image-main"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqvJjNsXzF69RDHZXWr7_G6ucXvU-WgGaZawfXRAX4&s"
-              alt=""
-            />
-            <img
-              className="image-main"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqvJjNsXzF69RDHZXWr7_G6ucXvU-WgGaZawfXRAX4&s"
-              alt=""
-            />
-            <img
-              className="image-main"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqvJjNsXzF69RDHZXWr7_G6ucXvU-WgGaZawfXRAX4&s"
-              alt=""
-            />
-            <img
-              className="image-main"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqvJjNsXzF69RDHZXWr7_G6ucXvU-WgGaZawfXRAX4&s"
-              alt=""
-            />
+    <div className="box-container container">
+      <div className="box-1 row">
+        <div className="col-12 col-lg-6">
+          <Link className="container-image" to="/about-me">
+            <img className="image-main" src={aboutme} alt="" />
+          </Link>
+          <Link className="container-image" to="/education">
+            <img className="image-main" src={education} alt="" />
+          </Link>
+          <Link className="container-image" to="/experience">
+            <img className="image-main" src={experience} alt="" />
+          </Link>
+        </div>
+        <div className="col-12 col-lg-6">
+          <Link className="container-image" to="/skills">
+            <img className="image-main" src={skills} alt="" />
+          </Link>
+          <Link className="container-image" to="/projects">
+            <img className="image-main" src={projects} alt="" />
+          </Link>
+          <Link className="container-image" to="/collaborations">
+            <img className="image-main" src={collaboration} alt="" />
+          </Link>
+        </div>
+        <div className="col-12">
+            <Link className="container-image" to="/contact">
+              <img className="image-main" src={contact} alt="" />
+            </Link>
           </div>
       </div>
     </div>

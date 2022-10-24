@@ -14,9 +14,9 @@ const Projects = () => {
           <Portfolio />
         </header>
         <div className="projects-container container">
-          <div className="projects-1">
+          <div className="projects-1 row">
             {projects.map((p) => (
-              <div className="project-box">
+              <div className="project-box col-12 col-lg-6">
                 <img
                   className="image-projects"
                   src={p.image}
