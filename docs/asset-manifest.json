@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.css": "./static/css/main.692d1c80.css",
-    "main.js": "./static/js/main.fe9ea473.js",
+    "main.css": "./static/css/main.d7f5240d.css",
+    "main.js": "./static/js/main.eda31f11.js",
     "static/media/IMG-6006.jpg": "./static/media/IMG-6006.4cc87fc6ee00cdd79902.jpg",
+    "static/media/about-me.png": "./static/media/about-me.6f7b07c18fa4ef1ad19b.png",
+    "static/media/projects.png": "./static/media/projects.19eff5a377131c9429da.png",
+    "static/media/experience.png": "./static/media/experience.ebb5b95bda7ce6310294.png",
+    "static/media/education.png": "./static/media/education.ceac74d02ecb11a724b6.png",
+    "static/media/contact.png": "./static/media/contact.a7abc882f16a21de65a7.png",
+    "static/media/collaborations.png": "./static/media/collaborations.3ef475242bbe99677ff9.png",
+    "static/media/skills.png": "./static/media/skills.3d2ee30e884e12438fdf.png",
     "static/media/Logotipo-UDELAR.png": "./static/media/Logotipo-UDELAR.9a1e55ad9f93807b228c.png",
-    "static/media/agile-scrum.png": "./static/media/agile-scrum.f8e7470473198e4c983c.png",
     "static/media/logo-adalab.svg": "./static/media/logo-adalab.0187ac2f3e9c24b3b65248560c7283b9.svg",
     "index.html": "./index.html",
-    "main.692d1c80.css.map": "./static/css/main.692d1c80.css.map",
-    "main.fe9ea473.js.map": "./static/js/main.fe9ea473.js.map"
+    "main.d7f5240d.css.map": "./static/css/main.d7f5240d.css.map",
+    "main.eda31f11.js.map": "./static/js/main.eda31f11.js.map"
   },
   "entrypoints": [
-    "static/css/main.692d1c80.css",
-    "static/js/main.fe9ea473.js"
+    "static/css/main.d7f5240d.css",
+    "static/js/main.eda31f11.js"
   ]
 }
