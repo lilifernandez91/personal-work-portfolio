@@ -15,43 +15,43 @@ const Skills = () => {
         </header>
         <div className="container-1 container">
           <div>
-            <h1 className="title">Skills</h1>
+            <h1 className="title">Habilidades</h1>
           </div>
           <div className="row">
             <div className="col-12 col-lg-6">
               <div>
                 <p>
-                  Layout: HTML5, CSS3, Flexbox, CSS Grid, design responsive,
+                Maquetación: HTML5, CSS3, Flexbox, CSS Grid, diseño responsive,
                   SASS, Bootstrap.
                 </p>
               </div>
               <div>
-                <p>JavaScript (ES6) and third-party web services (APIs).</p>
+                <p>JavaScript (ES6) y servicios web (API) de terceros.</p>
               </div>
               <div>
-                <p>Version control with Git.</p>
+                <p>Control de vesiones con Git.</p>
               </div>
               <div>
-                <p>Creating simple SPAs with React.</p>
+                <p>Creación de SPA sencillas con React.</p>
               </div>
             </div>
             <div className="col-12 col-lg-6">
               <div>
                 <p>
-                  Basic knowledge of APIs and back programming: Applications
-                  with Node JS, Express and SQL.
+                Conocimientos básicos de APIs y programación back: Aplicaciones
+                  con Node JS, Express y SQL.
                 </p>
               </div>
               <div>
                 <p>
-                  Management of Slack, GitHub, VS Code, Gulp, Terminal, Linter,
+                Manejo de Slack, GitHub, VS Code, Gulp, Terminal, Linter,
                   Zeplin.
                 </p>
               </div>
               <div>
                 <p>
-                  Experience in project development using philosophy Agile and
-                  Scrum framework.
+                Experiencia en el desarrollo de proyectos bajo filosofía Agile y
+                  marco de trabajo Scrum.
                 </p>
               </div>
             </div>

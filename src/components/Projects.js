@@ -24,15 +24,15 @@ const Projects = () => {
                 />
                 <div className="description">
                   <p>
-                    <span>Description:</span> 
+                    <span>Descripción:</span> 
                     <span>{p.description}</span>
                   </p>
                   <p>
-                    <span>Technologies:</span> 
+                    <span>Tecnologías:</span> 
                     <span>{p.technologies}</span>
                   </p>
                   <a rel="noreferrer" href={p.link} target="_blank">
-                    Visit website
+                    Visite el sitio web
                   </a>
                 </div>
               </div>

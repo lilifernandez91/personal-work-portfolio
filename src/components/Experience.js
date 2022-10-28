@@ -15,43 +15,43 @@ const Experience = () => {
         </header>
         <div className="experience-container container">
           <div className="row">
-          <div className="col-12 col-lg-8">
-            <h1 className="title">Experience</h1>
+            <div className="col-12 col-lg-8">
+              <h1 className="title">Experiencia</h1>
               <ul className="list">
-                <p className="paragraph">Bachelor of Speech Therapy in:</p>
+                <p className="paragraph">Licenciada en Fonoaudiología en:</p>
                 <li>
-                  Peñarol Clinic and Centro Oeste Clinic. Montevideo, Uruguay.
-                  Year 2019- 2021.
+                  Clínica Peñarol y Clínica Centro Oeste. Montevideo, Uruguay.
+                  Año 2019- 2021.
                 </li>
                 <li>
-                  Ciprés Clinic and "Franklin Delano Roosevelt" school.
-                  Montevideo, Uruguay. Year 2017-2019.
+                  Clínica Ciprés y Escuela "Franklin Delano Roosevelt".
+                  Montevideo, Uruguay. Año 2017-2019.
                 </li>
                 <li>
-                  Provincial Polyclinic "Chiqui Gómez". Villa Clara, Cuba. Year
+                  Policlínica Provincial "Chiqui Gómez". Villa Clara, Cuba. Año
                   2015-2017.
                 </li>
               </ul>
               <ul className="list">
-                <p className="paragraph">Competencies:</p>
+                <p className="paragraph">Competencias:</p>
                 <li>
-                  Prevention, evaluation, diagnosis and treatment in children
-                  and adults with communication disorders.
+                  Prevención, evaluación, diagnóstico y tratamiento en niños y
+                  adultos con dificultades en la comunicación.
                 </li>
                 <li>
-                  Rehabilitation of children and adults with cochlear implants.
-                  auditory-verbal therapy.
+                  Rehabilitación de niños y adultos con implante coclear.
+                  Terapia auditivo-verbal.
                 </li>
                 <li>
-                  Rehabilitation of children with neurological pathologies.
-                  Swallowing therapy. Alternative and augmentative communication
-                  systems.
+                  Rehabilitación de niños con patologías neurológicas. Terapia
+                  de deglución. Sistema de comunicación alternativa y/o
+                  aumentativa.
                 </li>
               </ul>
-          </div>
-          <div className="col-12 col-lg-4 image-experience-container">
-            <img className="imgage-experience" src={images} alt="" />
-          </div>
+            </div>
+            <div className="col-12 col-lg-4 image-experience-container">
+              <img className="imgage-experience" src={images} alt="" />
+            </div>
           </div>
         </div>
         <Footer />

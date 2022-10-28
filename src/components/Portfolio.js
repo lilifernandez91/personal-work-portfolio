@@ -4,7 +4,7 @@ import "../styles/Reset.scss";
 const Portfolio = () => {
     return (
         <div>
-            <h1 className="portfolio">Portfolio</h1>
+            <h1 className="portfolio">Portafolio</h1>
         </div>
     )
 }

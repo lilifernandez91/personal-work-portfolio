@@ -14,27 +14,25 @@ const AboutMe = () => {
           <Portfolio />
         </header>
         <div className="container about-me-container">
-          <h1 className="title">About me</h1>
+          <h1 className="title">Sobre mí</h1>
           <div className="row">
             <div className="col-12 col-lg-8">
               <p className="description">
-                I studied a degree in speech therapy at the University of
-                Sciences Doctors from Villa Clara, Cuba. A year after finishing
-                my degree I went to live to another country, Uruguay. For almost
-                6 years I practiced my profession and attended children and
-                adults with speech and hearing difficulties. A Although
-                professionally I felt fulfilled, my dream was to live in Spain.
-                Given the opportunity to reside in Spain, he did not I thought
-                twice and jumped in, but since nothing is perfect I found myself
-                with endless obstacles to exercise. As a result of this, I
-                searched other opportunities for professional development and
-                for friendships that are linked to the IT sector and the
-                testimony of a former adalaber was born curiosity and Adalab
-                appeared with a very interesting proposal and this story is
-                starting now.... I have attended a bootcamp of "Front-End
-                Programming", in which I have discovered an exciting world that
-                has sparked my interest in technology and the need to take on
-                new challenges and be constantly learning.
+                Estudié Licenciatura en Fonoaudiología en la Universidad de
+                Ciencias Médicas de Villa Clara, Cuba. Un año después de
+                terminar mi carrera me fui a vivir a otro país, Uruguay. Por
+                casi 6 años ejercí mi profesión y atendí a niños y adultos con
+                dificultades auditivas y del lenguaje. Aunque profesionalmente
+                me sentía realizada, mi sueño era vivir en España. Dada la
+                oportunidad de residir en España, no lo pensé dos veces y me
+                aventé, pero como nada es perfecto me encontré con un sinfín de
+                obstáculos para poder ejercer mi profesión. Como resultado de
+                esto, busqué otras oportunidades de desarrollo profesional y por
+                amistades que están vinculadas al sector IT y el testimonio de
+                una exadalaber nació la curiosidad y me animé a cursar el bootcamp de "Programación Front-End ",
+                en el que he descubierto un mundo apasionante que ha despertado
+                mi interés por la tecnología y la necesidad de asumir nuevos
+                retos y estar en constante aprendizaje.
               </p>
             </div>
             <div className="col-12 col-lg-4 container-image-about-me">

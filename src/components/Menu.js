@@ -26,25 +26,25 @@ const Menu = () => {
             Inicio
           </Link>
           <Link className="nav-link" to="/about-me">
-            About me
+            Sobre mí
           </Link>
           <Link className="nav-link" to="/education">
-            Education
+            Educación
           </Link>
           <Link className="nav-link" to="/experience">
-            Experience
+            Experiencia
           </Link>
           <Link className="nav-link" to="/skills">
-            Skills
+            Habilidades
           </Link>
           <Link className="nav-link" to="/projects">
-            Projects
+            Proyectos
           </Link>
           <Link className="nav-link" to="/collaborations">
-            Collaborations
+            Colaboraciones
           </Link>
           <Link className="nav-link" to="/contact">
-            Contact
+            Contacto
           </Link>
         </nav>
       ) : (

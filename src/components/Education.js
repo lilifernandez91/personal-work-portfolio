@@ -18,38 +18,44 @@ const Education = () => {
         </header>
         <div>
           <div className="education-container container">
-           <div className="row">
-           <div className="col-12 col-lg-8">
-              <h1 className="title">Education</h1>
-              <ul className="list-container">
-                <div>
-                  <li className="list">
-                    <img className="image" src={imageOne} alt="" />
-                    <p>Adalab, digital programming school for women. Front End
-                    development intensive course. Year: 2022.</p>
-                  </li>
-                </div>
-                <div>
-                  <li className="list">
-                    <img className="image" src={imageTwo} alt="" />
-                    <p>Faculty of Medicine of the University of the Republic,
-                    Montevideo, Uruguay. Approval of the Bachelor's degree in
-                    Speech Therapy. Year: 2018.</p>
-                  </li>
-                </div>
-                <div>
-                  <li className="list">
-                    <img className="image" src={imageThree} alt="" />
-                    <p>Villa Clara University of Medical Sciences, Cuba. Degree in
-                    speech therapy. Year: 2010-2015.</p>
-                  </li>
-                </div>
-              </ul>
+            <div className="row">
+              <div className="col-12 col-lg-8">
+                <h1 className="title">Educación</h1>
+                <ul className="list-container">
+                  <div>
+                    <li className="list">
+                      <img className="image" src={imageOne} alt="" />
+                      <p>
+                        Adalab, escuela de programación para mujeres. Curso
+                        intensivo de Programación Front End. España. Año: 2022.
+                      </p>
+                    </li>
+                  </div>
+                  <div>
+                    <li className="list">
+                      <img className="image" src={imageTwo} alt="" />
+                      <p>
+                        Facultad de Medicina de la Universidad de la República,
+                        Montevideo, Uruguay. Homologación del título de
+                        Licenciatura en Fonoaudiología. Año: 2018.
+                      </p>
+                    </li>
+                  </div>
+                  <div>
+                    <li className="list">
+                      <img className="image" src={imageThree} alt="" />
+                      <p>
+                        Universidad de Ciencias Médicas de Villa Clara, Cuba.
+                        Licenciatura en Fonoaudiología. Año: 2010-2015.
+                      </p>
+                    </li>
+                  </div>
+                </ul>
+              </div>
+              <div className="col-12 col-lg-4 image-education-container">
+                <img className="image-education" src={images} alt="" />
+              </div>
             </div>
-            <div className="col-12 col-lg-4 image-education-container">
-              <img className="image-education" src={images} alt="" />
-            </div>
-           </div>
           </div>
         </div>
         <Footer />

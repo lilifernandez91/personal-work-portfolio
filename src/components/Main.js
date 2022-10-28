@@ -8,12 +8,12 @@ const Main = () => {
       <div className="row">
         <div className="col-12 col-lg-8">
           <p>
-            Hello, my name is Lili and I have made this portfolio to tell you a
-            little about my life and professional career. Hope you like.
+            Hola, mi nombre es Lili y he realizado este portafolio para contarles
+            un poco sobre mi vida y carrera profesional. Espero que les guste.
           </p>
         </div>
         <div className="col-12 col-lg-4 container-imagen-main">
-        <img className="imagen-main" src={imagenPrincipal} alt="" />
+          <img className="imagen-main" src={imagenPrincipal} alt="" />
         </div>
       </div>
     </div>
