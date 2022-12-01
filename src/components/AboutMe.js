@@ -28,8 +28,7 @@ const AboutMe = () => {
                 aventé, pero como nada es perfecto me encontré con un sinfín de
                 obstáculos para poder ejercer mi profesión. Como resultado de
                 esto, busqué otras oportunidades de desarrollo profesional y por
-                amistades que están vinculadas al sector IT y el testimonio de
-                una exadalaber nació la curiosidad y me animé a cursar el bootcamp de "Programación Front-End ",
+                amistades que están vinculadas al sector IT nació la curiosidad y me animé a cursar un bootcamp de "Programación Front-End ",
                 en el que he descubierto un mundo apasionante que ha despertado
                 mi interés por la tecnología y la necesidad de asumir nuevos
                 retos y estar en constante aprendizaje.

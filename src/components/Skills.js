@@ -32,7 +32,7 @@ const Skills = () => {
                 <p>Control de vesiones con Git.</p>
               </div>
               <div>
-                <p>Creación de SPA sencillas con React.</p>
+                <p>Creación de SPA sencillas con React y Next JS.</p>
               </div>
             </div>
             <div className="col-12 col-lg-6">

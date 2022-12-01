@@ -1,9 +1,9 @@
 .education-container {
-  min-height: calc(100vh - 273px);
+  min-height: calc(100vh - 190px);
 
-  @media (min-width: 992px) {
-    min-height: calc(100vh - 185px);
-  }
+  // @media (min-width: 992px) {
+  //   min-height: calc(100vh - 185px);
+  // }
 
   .title {
     color: #4a4a4a;
@@ -43,7 +43,7 @@
       margin-bottom: 24px;
       margin-top: 28px;
       border-radius: 8px;
-      box-shadow: 0 8px 8px 0 rgb(54, 126, 24);
+      box-shadow: 0 8px 8px 0 rgb(229, 184, 244);
     }
   }
 }

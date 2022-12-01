@@ -4,6 +4,7 @@ import images from "../images/estudios.jpeg";
 import imageOne from "../images/logo-adalab.svg";
 import imageTwo from "../images/Logotipo-UDELAR.png";
 import imageThree from "../images/images.jpeg";
+import imageFour from "../images/bejob.jpeg";
 import Footer from "./Footer";
 import Menu from "./Menu";
 import Portfolio from "./Portfolio";
@@ -22,6 +23,17 @@ const Education = () => {
               <div className="col-12 col-lg-8">
                 <h1 className="title">Educación</h1>
                 <ul className="list-container">
+                  <div>
+                    <li className="list">
+                      <img className="image" src={imageFour} alt="" />
+                      <p>
+                        Bejob, programa formativo Samsung DesArrolladoras,
+                        impulsado por Samsung Dev Spain. Curso de introducción
+                        al desarrollo web, desarrollo Front-End y desarrollo
+                        Full Stack. España. Año: 2022-2023.
+                      </p>
+                    </li>
+                  </div>
                   <div>
                     <li className="list">
                       <img className="image" src={imageOne} alt="" />
