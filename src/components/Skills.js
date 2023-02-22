@@ -31,16 +31,10 @@ const Skills = () => {
               <div>
                 <p>Control de vesiones con Git.</p>
               </div>
-              <div>
-                <p>Creación de SPA sencillas con React y Next JS.</p>
-              </div>
             </div>
             <div className="col-12 col-lg-6">
               <div>
-                <p>
-                Conocimientos básicos de APIs y programación back: Aplicaciones
-                  con Node JS, Express y SQL.
-                </p>
+                <p>Creación de SPA sencillas con React y Next JS.</p>
               </div>
               <div>
                 <p>
